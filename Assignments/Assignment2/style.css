@@ -1,0 +1,116 @@
+.main{
+    background-image: url("image.png");
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+}
+.head{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 10%;
+    width: 200px;
+    position:absolute;
+    top: 8;
+    left: 50%;
+    font-size: 20px;
+    color:rgb(167, 100, 249);
+
+}
+.head h1{
+    
+    width:500%;
+    display: flex;
+    justify-content: center;
+    margin-left: -220%;
+    color: black;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.262);
+    margin-left: 10%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25%;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    padding-top: 0px;
+    border-radius: 10px;
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    
+}
+.boxed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    gap: 20px;
+    margin-right:0%;
+    width: 300%;
+}
+.first{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.version{
+    background-color: rgba(218, 173, 253, 0.8);
+    border-radius: 10px;
+    height: 300px;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.version h4{
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+.top{
+    margin-top: 2px;
+}
+.version button{
+    background-color: rgb(6, 110, 255);
+    border: none;
+    padding: 10px 110px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 0px;
+    color: white;
+}
+.content{
+    color: gray;
+    margin-right:70px;
+}
+li{
+    margin-left: -20px;
+    padding: 10px;
+}
+h3{
+    font-weight:bold;
+}
+.small{
+    position: absolute;
+    top: 33%;
+    background-color: yellow;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+
+}
